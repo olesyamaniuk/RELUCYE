@@ -447,8 +447,40 @@
             >
           </p>
           <div class="q-t-features-div">
-            <div class="q-t-features-form"></div>
-            <img src="/img/1.png" alt="clock" />
+            <form
+              class="q-t-features-form"
+              action="info@domain.com"
+              method="POST"
+              enctype="text/plain"
+            >
+              <input
+                class="q-t-features-input"
+                type="text"
+                name="name"
+                placeholder="Imię i Nazwisko"
+              /><input
+                class="q-t-features-input"
+                type="tel"
+                name="phone"
+                placeholder="Telefon"
+              />
+              <input
+                class="q-t-features-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <textarea
+                class="q-t-features-input q-t-features-textarea"
+                name="message"
+                placeholder="Mesaj"
+              ></textarea>
+              <button class="q-t-features-button" type="submit">
+                Zamów narzędzie czasu
+              </button>
+            </form>
+
+            <img class="q-t-features-img" src="/img/1.png" alt="clock" />
           </div>
         </div>
       </section>
